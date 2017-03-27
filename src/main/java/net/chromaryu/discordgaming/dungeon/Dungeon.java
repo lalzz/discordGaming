@@ -30,4 +30,9 @@ public class Dungeon {
     {
         map = data;
     }
+    public String toString()
+     {
+                        return Arrays.toString(map);
+     }
+                    
 }
