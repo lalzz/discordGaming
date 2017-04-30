@@ -8,7 +8,7 @@ import java.util.HashMap;
  */
 public class Dungeon {
     private static HashMap<String,String> dungeon = new HashMap<>();
-    int[][] map;
+    public int[][] map;
     
     public Dungeon()
     {
